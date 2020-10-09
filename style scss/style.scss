@@ -1,0 +1,221 @@
+body {
+  margin: 0px;
+  font-family: "Tangerine", cursive;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  .banner-text {
+    .btt {
+      color: white;
+      border: 1px solid grey;
+      background: dimgray;
+      font-size: 15px;
+      font-weight: 400;
+      opacity: 0.6;
+    }
+
+    .total {
+      text-align: center;
+      padding: 11vw 0 14vw;
+      max-width: 800px;
+      margin: 0 auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+
+      fieldset {
+        border: 2px solid darkgrey;
+        border-radius: 30px;
+        position: relative;
+        padding: 0px 68px;
+        legend {
+          font-family: "Tangerine", cursive;
+          font-weight: bold;
+          font-size: 67px;
+          width: 45%;
+          color: white;
+        }
+        h1 {
+          font-size: 35px;
+          color: darkgrey;
+        }
+        .line {
+          border-bottom: 3px solid #8e9da5;
+          width: 11%;
+          margin: auto;
+        }
+        .para {
+          color: #fff;
+          font-size: 16px;
+          letter-spacing: 2px;
+          font-weight: 400;
+          // margin: 0px 237px;
+        }
+        .btn-read {
+          padding: 11px 24px;
+          border: 1px solid white;
+          background-color: white;
+          margin-bottom: -20px;
+        }
+      }
+    }
+  }
+
+  .text {
+    padding: 38px 77px;
+    border-bottom: 1px solid darkgray;
+    h1 {
+      font-size: 35px;
+    }
+    .p1 {
+      margin: 34px 0px;
+      font-size: 17px;
+    }
+    p {
+      font-size: 17px;
+    }
+    .btn-read {
+      padding: 13px 27px;
+      border: 1px solid darkgray;
+      color: black;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  .text1 {
+    padding: 38px 77px;
+
+    h1 {
+      font-size: 35px;
+    }
+    .p1 {
+      margin: 34px 0px;
+      font-size: 17px;
+    }
+    p {
+      font-size: 17px;
+    }
+    .btn-read {
+      padding: 13px 27px;
+      border: 1px solid darkgray;
+      color: black;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  h3 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .tv {
+    color: darkgray;
+  }
+  .icon {
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #bdbdbd;
+    border-radius: 50%;
+    margin: 0 auto;
+    color: darkturquoise;
+    line-height: 60px;
+    font-size: 28px;
+  }
+  .text2 {
+    text-align: center;
+    h5 {
+      font-size: 22px;
+      font-weight: 500;
+    }
+    .ser {
+      color: darkgray;
+    }
+  }
+  .foto {
+    img {
+      width: 100%;
+      border: 4px solid transparent;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .ii {
+    .pip {
+      margin: 47px 47px;
+
+      .card.text-center {
+        .card-text {
+          color: darkgrey;
+        }
+      }
+      .imgt {
+        width: 30%;
+        border-radius: 50px;
+        margin: 10px 0px;
+      }
+      .star {
+        list-style: none;
+
+        li {
+          display: inline-block;
+          font-size: 14px;
+          color: orangered;
+        }
+      }
+    }
+  }
+  .texte {
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    .hy {
+      margin: 111px 0px;
+      .hk {
+        font-size: 38px;
+        color: #ffffff;
+      }
+      .null {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        padding: 17px 33px;
+      }
+      .btn {
+        border: 1px solid white;
+        color: white;
+      }
+    }
+  }
+  .get {
+    font-size: 50px;
+    color: cornflowerblue;
+    letter-spacing: 0px;
+
+    font-family: "Tangerine", cursive;
+    font-weight: 600;
+  }
+  .lorem {
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .to {
+    font-size: 40px;
+  }
+  strong {
+    color: orangered;
+  }
+
+  .iconsoc {
+    list-style: none;
+    li {
+      display: inline-block;
+    }
+  }
+  .footersteps {
+    background-color: darkgray;
+  }
+}
